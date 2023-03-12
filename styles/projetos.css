@@ -1,0 +1,114 @@
+    .projetos{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-de-fundo-primaria);
+    border-bottom: 10px solid var(--cor-da-fonte);
+
+    }
+    .projetos_titulo{
+        display: flex;
+        justify-content: center;
+    }
+     .projetos_titulo_principal{
+        padding: 1em;
+        text-align: center;
+        font-family: var(--fonte-secundaria);
+        font-weight: 700;
+        font-size: 22px;
+        color: var(--cor-da-fonte);
+        }
+    
+    .imagens_projetos{
+        gap: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    #construindo{
+        height: 7vh;
+        weight: 7vw;
+        padding: 6px;
+        border-radius: 50%;
+        border: 3px solid var(--cor-de-fundo-secundaria);
+    }
+
+    .textos_projeto{
+        margin: 1em 0 3em 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+    }
+
+    .textos_texto_projeto{
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 15px;
+        text-align:center;
+        color: var(--cor-de-fundo-secundaria)
+    }
+
+    @media screen and (min-width:1024px){
+        .projetos_titulo_principal{
+            padding: 1em;
+            text-align: center;
+            font-family: var(--fonte-secundaria);
+            font-weight: 700;
+            font-size: 38px;
+            color: var(--cor-da-fonte);
+            }
+           
+        #construindo{
+            height: 12vh;
+            weight: 12vw;
+            padding: 6px;
+            border-radius: 50%;
+            border: 8px solid var(--cor-de-fundo-secundaria);
+    }
+    .textos_texto_projeto{
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 30px;
+        text-align:center;
+        color: var(--cor-de-fundo-secundaria);      
+    }
+        .textos_projeto{
+            margin: 1em 0 3em 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 4em;     
+        }
+    }
+
+    @media screen and (min-width:1728px){
+        .projetos_titulo_principal{
+            padding: 1em;
+            text-align: center;
+            font-family: var(--fonte-secundaria);
+            font-weight: 700;
+            font-size: 52px;
+            color: var(--cor-da-fonte);
+            }
+           
+        #construindo{
+            height: 18vh;
+            weight: 18vw;
+            padding: 6px;
+            border-radius: 50%;
+            border: 8px solid var(--cor-de-fundo-secundaria);
+    }
+    .textos_texto_projeto{
+        font-family: var(--fonte-primaria);
+        font-weight: 700;
+        font-size: 40px;
+        text-align:center;
+        color: var(--cor-de-fundo-secundaria);      
+    }
+        .textos_projeto{
+            margin: 1em 0 3em 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 6em;     
+        }
+    }

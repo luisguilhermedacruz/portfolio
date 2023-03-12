@@ -1,0 +1,141 @@
+.habilidades{
+padding: 0 0 2em 0;
+background-color: var(--cor-de-fundo-secundaria);
+border-bottom: 10px solid var(--cor-da-fonte);
+
+}
+.habilidades_titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.habilidades_titulo_principal{
+    margin: 1em 0 2em 0;
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor-de-fundo-primaria);
+    border: 2px solid var(--cor-da-fonte);
+    border-radius: 20px;
+    padding: 0.8em 0.8em ;
+
+}
+#html_logo{
+    height: 9vh;
+    weight: 9vw;
+}
+#css_logo{
+    height: 9vh;
+    weight: 9vw;
+}
+
+#js_logo{
+    height: 9vh;
+    weight: 9vw;
+}
+
+#check_logo{
+    height: 4vh;
+    weight: 4vw;
+}
+
+.stacks_logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.status_logos{
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 71px;
+}
+
+@media screen and (min-width:1024px) {
+
+     .habilidades_titulo_principal{
+        margin: 1em 0 2em 0;
+        font-family: var(--fonte-secundaria);
+        font-weight: 700;
+        font-size: 38px;
+        color: var(--cor-de-fundo-primaria);
+        border: 2px solid var(--cor-da-fonte);
+        border-radius: 20px;
+        padding: 0.8em 0.8em ;
+     }
+
+     #html_logo{
+        height: 18vh;
+        weight: 18vw;
+    }
+    #css_logo{
+        height: 18vh;
+        weight: 18vw;
+    }
+    
+    #js_logo{
+        height: 18vh;
+        weight: 18vw;
+    }
+    
+    #check_logo{
+        height: 8vh;
+        weight: 8vw;
+    }
+    .status_logos{
+        margin: 0.5em 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 100px;
+    }
+}
+
+@media screen and (min-width:1728px) {
+
+    .habilidades_titulo_principal{
+       margin: 1em 0 2em 0;
+       font-family: var(--fonte-secundaria);
+       font-weight: 700;
+       font-size: 52px;
+       color: var(--cor-de-fundo-primaria);
+       border: 10px solid var(--cor-da-fonte);
+       border-radius: 20px;
+       padding: 0.8em 0.8em ;
+    }
+
+    #html_logo{
+       height: 30vh;
+       weight: 30vw;
+   }
+   #css_logo{
+       height: 30vh;
+       weight: 30vw;
+   }
+   
+   #js_logo{
+       height: 30vh;
+       weight: 30vw;
+   }
+   
+   #check_logo{
+       height: 14vh;
+       weight: 14vw;
+   }
+   .status_logos{
+       margin: 2em 0;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       gap:190px;
+   }
+
+   .stacks_logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&family=Poppins:wght@300;400;700&family=Tilt+Warp&display=swap');
+@import url("./header.css");
+@import url("./sobre.css");
+@import url("./experiencia.css");
+@import url("./habilidades.css");
+@import url("./projetos.css");
+@import url(".//contatos.css");
+@import url(".//footer.css");
+
+:root{
+    --cor-de-fundo-primaria: #404040;
+    --cor-de-fundo-secundaria: #a0b6f7;
+    --cor-da-fonte: #f2f261;
+    --fonte-primaria: 'Nunito Sans' , sans-serif;
+    --fonte-secundaria: 'Poppins' , sans-serif;
+    --fonte-da-logo: 'Tilt Warp', cursive;
+
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+}
+

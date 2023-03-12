@@ -1,0 +1,112 @@
+.contatos{
+background-color: var(--cor-de-fundo-secundaria);
+display: flex;
+flex-direction: column;
+border-bottom: 10px solid var(--cor-da-fonte);
+}
+
+.titulo_contato{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+    font-family: var(--fonte-primaria);
+    font-weight:700;
+    font-size: 22px;
+    color: var(--cor-de-fundo-primaria)
+    
+}
+
+
+.imgs_contatos{
+    border-bottom: ;
+    padding-bottom: 2em;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    gap:1.5em;
+}
+
+#whats{
+    height: 7vh;
+    weight: 7vh;
+}
+
+#in{
+    height: 7vh;
+    weight: 7vh;
+}
+
+#github{
+    height: 7vh;
+    weight: 7vh;
+}
+
+#email{
+    height: 7vh;
+    weight: 7vh;
+}
+
+@media screen and (min-width:1024px){
+    .titulo_contato{
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+        font-family: var(--fonte-primaria);
+        font-weight:700;
+        font-size: 45px;
+        color: var(--cor-de-fundo-primaria)
+        
+    }
+    #whats{
+        height: 14vh;
+        weight: 14vh;
+    }
+    
+    #in{
+        height: 14vh;
+        weight: 14vh;
+    }
+    
+    #github{
+        height: 14vh;
+        weight: 14vh;
+    }
+    
+    #email{
+        height: 14vh;
+        weight: 14vh;
+
+}
+}
+@media screen and (min-width:1728px){
+    .titulo_contato{
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+        font-family: var(--fonte-primaria);
+        font-weight:700;
+        font-size: 55px;
+        color: var(--cor-de-fundo-primaria)
+        
+    }
+    #whats{
+        height: 20vh;
+        weight: 20vh;
+    }
+    
+    #in{
+        height: 20vh;
+        weight: 20vh;
+    }
+    
+    #github{
+        height: 20vh;
+        weight: 20vh;
+    }
+    
+    #email{
+        height: 20vh;
+        weight: 20vh;
+
+}
+}
